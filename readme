@@ -1,0 +1,14 @@
+Useful Commands
+
+npx hardhat compile
+
+npx hardhat run scripts/deploy.js --network ropsten
+
+Contract deployed to address: 0xA59b26Dd391DF0c868a6f4De90dFe5336a0930fa
+
+npx hardhat verify --network ropsten 0xA59b26Dd391DF0c868a6f4De90dFe5336a0930fa 'Hello World!'
+
+
+Successfully verified contract MyTokenV1 on Etherscan.
+https://ropsten.etherscan.io/address/0xA59b26Dd391DF0c868a6f4De90dFe5336a0930fa#code
+
